@@ -1,0 +1,74 @@
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 30;
+    background: rgba(0, 0, 0, 0.6);
+    // opacity: 0.7;
+    .container {
+        .nav {
+            z-index: 999;
+            li {
+                a.nav-link {
+                    padding: 1.5rem 2rem;
+                    color: #ffffff;
+                }
+                .dropdown {
+                    button.dropdown-toggle {
+                        background: none;
+                        border: none;
+                    }
+                    .sub-menu {
+                        .dropdown-menu {
+                                min-width: 50rem;
+                                padding: 15px 6px !important;
+                                border: 1px solid #ddd;
+                                background: #fff;
+                                box-shadow: 0 3px 3px rgb(0 0 0 / 20%);
+                                position: absolute;
+                                font-size: 14px;
+                                padding: 15px 8px 5px;
+                                text-align: left;
+                                transform: translate(-325px) !important;
+                            
+                            .row {
+                                .dropdown-item:hover {
+                                    color: #ad0909;
+                                    transform: translateX(5px);
+                                    transition: all 200ms ease-in-out;
+                                }
+                                .dropdown-item:active {
+                                    background: #fff;
+                                }
+                                .drop-head {
+                                    padding: 0.25rem 1rem;
+                                    font-weight: 600;
+                                    font-size: 1.2rem;
+                                }
+                            }
+                        }
+                        li:hover {
+                            background: #fff;
+                        }
+                        #products{
+                            min-width: 20rem;
+                            transform: translate(-130px) !important;
+                            .dropdown-item:hover {
+                                color: #ad0909;
+                                transform: translateX(5px);
+                                transition: all 200ms ease-in-out;
+                            }
+                        }
+                    }
+                }
+                .dropdown:hover .dropdown-menu {
+                    display: block;
+                }
+            }
+        }
+        .nav li:hover {
+            background: #8f1414;
+        }
+    }
+}

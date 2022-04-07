@@ -1,0 +1,76 @@
+.footer {
+    width: 100%;
+    background: #ffdcdc;
+    padding: 50px 0 50px;
+    .footer-top {
+        .container {
+            .row {
+                .footer-items {
+                    p {
+                    }
+                    a {
+                        img {
+                            margin-bottom: 20px;
+                        }
+                    }
+                    .social-icons {
+                        ul {
+                            display: flex;
+                            list-style: none;
+                            padding: 0;
+                            li {
+                                margin: 0 10px 0 0;
+                                img {
+                                    width: 30px;
+                                }
+                                img :hover {
+                                    color: red;
+                                }
+                            }
+                        }
+                    }
+                }
+                .col-lg-6 {
+                    align-self: center;
+                    .footer-menu {
+                        ul {
+                            list-style: none;
+                            padding: 20px;
+                            li {
+                                border-right: 1px solid #ccc;
+                                display: inline-block;
+                                margin-bottom: 10px;
+                                a {
+                                    color: #000;
+                                    text-decoration: none;
+                                    padding: 0 7px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .contact-us {
+                    h1 {
+                        font-size: 1.4rem;
+                    }
+                    ul {
+                        list-style: none;
+                        margin: 30px 0;
+                        padding: 0;
+                        li {
+                            display: flex;
+                            align-items: baseline;
+                            margin: 10px 0;
+                            img {
+                                margin-right: 20px;
+                            }
+                            p {
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

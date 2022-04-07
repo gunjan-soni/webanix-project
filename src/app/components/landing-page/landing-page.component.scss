@@ -1,0 +1,277 @@
+@import "~swiper/css";
+@import "~swiper/css/pagination";
+@import "~swiper/css/navigation";
+.swiper {
+    width: 100%;
+}
+.swiper-slide {
+    text-align: left;
+    font-size: 18px;
+    background: transparent;
+    padding: 0 75px 0;
+}
+
+.swiper {
+    position: absolute;
+    top: 25%;
+}
+.mySwiper {
+    span {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #000000;
+    }
+    h1 {
+        font-weight: 700;
+        color: #000000;
+        margin: 15px 0;
+    }
+}
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    display: none;
+}
+.rounded-pill {
+    background: rgb(189, 121, 121);
+    padding: 20px 40px;
+    border: none;
+    a {
+        color: #000000;
+        text-decoration: none;
+        font-weight: 600;
+    }
+}
+.home-page {
+    .content {
+        .background-image {
+            // opacity: 0.7;
+            width: 100%;
+            height: 100%;
+            visibility: inherit;
+            z-index: 20;
+            img {
+                height: 550px;
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+        .right-sec {
+            position: absolute;
+            top: 40%;
+            text-align: -webkit-right;
+            .head {
+                color: #000000;
+                h1 {
+                    span {
+                        color: red;
+                    }
+                }
+            }
+            .body {
+                ul {
+                    li {
+                    }
+                }
+            }
+        }
+    }
+    .web-support {
+        .blurb-boxed-2 {
+            padding: 25px;
+            svg {
+                font-size: 50px;
+                line-height: 1;
+            }
+        }
+    }
+    .work-phase {
+        padding-top: 50px;
+        padding-bottom: 25px;
+        // background-image: url(https://themes.muffingroup.com/be/agency4/wp-content/uploads/2020/05/agency4-home-offer-bg.jpg);
+        .section-inner {
+            color: #000000;
+            .inner-head {
+                text-align: center;
+                align-items: center;
+                h1 {
+                    span {
+                    }
+                }
+            }
+            .container {
+                .row {
+                    .col-lg-4 {
+                        .box-desc {
+                            .image {
+                                text-align: center;
+                                img {
+                                    width: 45%;
+                                    height: auto;
+                                }
+                            }
+                            .title {
+                                margin: 30px 0;
+                                padding: 0% 15% 0% 15%;
+                                text-align: justify;
+                                .title-head {
+                                    text-align: center;
+                                }
+                            }
+                            &:hover,
+                            &:focus {
+                                transform: scale3d(1.006, 1.006, 1);
+                                transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+                                box-shadow: 9px 17px 30px 0px rgb(0 0 0 / 10%);
+                                padding: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .web-banner {
+        height: 500px;
+        background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #e85f5f);
+        .banner-img {
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        .row {
+            .container {
+                margin: 0 100px;
+                .banner-title {
+                    position: relative;
+                    .banner-head {
+                        position: absolute;
+                        top: 250px;
+                    }
+                    .banner-sub-head {
+                        position: absolute;
+                        top: 200px;
+                        font-weight: 500;
+                    }
+                }
+                .btns {
+                    position: relative;
+                    .get-in {
+                        background-image: linear-gradient(to right, #dd5e89 0%, #f7bb97 51%, #dd5e89 100%);
+                        padding: 15px 40px;
+                        font-weight: 500;
+                        color: #ffffff;
+                        text-decoration: none;
+                        top: 120px;
+                        position: absolute;
+                    }
+                    .get-in:hover {
+                        transition: 0.4s 0.4s, border-color 0.4s 0s, color 0.2s 0s;
+                    }
+                    .learn-more {
+                        top: 120px;
+                        position: absolute;
+                        left: 200px;
+                        background: none;
+                        outline: 1px solid #d97272;
+                        padding: 15px 40px;
+                        font-weight: 500;
+                        color: #e43a3a;
+                        text-decoration: none;
+                    }
+                    .learn-more:hover {
+                        transition: 0.4s 0.4s, border-color 0.4s 0s, color 0.4s 0.4s;
+                        outline: none;
+                        color: #ffffff;
+                        background: #d97272;
+                    }
+                }
+            }
+            .right-side {
+                .col-7 {
+                    text-align-last: right;
+                    width: 100%;
+                }
+                img {
+                    height: 500px;
+                }
+            }
+        }
+    }
+    .web-case-study {
+        margin: 50px 0;
+        .case-study {
+            // position: relative;
+            .background-image {
+                h1 {
+                    text-align: center;
+                }
+                img {
+                    width: 100%;
+                    height: 30%;
+                    height: 300px;
+                    object-fit: cover;
+                }
+            }
+            .container {
+                .row {
+                    // position: absolute;
+                    margin: 50px 0;
+                    // top: 15%;
+                    .col-lg-3 {
+                        text-align: center;
+                        padding: 25px 0 40px 0;
+                        .blog-slingle-item {
+                            margin: 0 30px;
+                            .post-img {
+                                height: 200px;
+                                width: 200px;
+                                margin: auto;
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                    border-radius: 100%;
+                                }
+                            }
+                            .blog-content-info {
+                                margin: 30px 0 0 0;
+                                h1 {
+                                    font-size: 1.4rem;
+                                }
+                                p {
+                                    text-align: justify;
+                                    margin: 30px 0;
+                                }
+                            }
+                            button a {
+                                text-decoration: none;
+                                // background: #e6b2b2;
+                                color: #000000;
+                                padding: 10px 30px;
+                                font-weight: 600;
+                                font-size: 1.2rem;
+                                border-radius: 5px;
+                            }
+                            a:hover {
+                                // background: rgb(185, 179, 179);
+                                color: #ffffff;
+                            }
+                        }
+                        &:hover,
+                        &:focus {
+                            transform: scale3d(1.006, 1.006, 1);
+                            transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+                            box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
